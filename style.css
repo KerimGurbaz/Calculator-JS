@@ -79,3 +79,24 @@ body {
 .button:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 576px) {
+  .calculator {
+    width: 350px;
+    height: 600px;
+  }
+  .display {
+    height: 10rem;
+    font-size: 3rem;
+  }
+  .button {
+    font-size: 1.7rem;
+    height: 4rem;
+    width: 4rem;
+  }
+  .button.number-0 {
+    border-radius: 2rem;
+    padding-left: 1.3rem;
+    width: 8rem;
+  }
+}
